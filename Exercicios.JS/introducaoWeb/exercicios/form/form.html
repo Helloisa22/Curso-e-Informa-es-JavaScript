@@ -1,0 +1,54 @@
+<h1>Formulário</h1>
+
+<form action="http://localhost:3003/usuarios" method="POST"> <!--METODO POST-->
+    <input type="text" name="name">
+    <input type="password" name="senha">
+    <textarea name="bio" cols="30" rows="10"></textarea>
+
+    <!--INPUT -> PARA INFORMAR QUAL TIPO DE PESSOA SE CADASTRA-->
+    <div>
+        <input type="radio" name="tipo" value="admin"> Admin
+        <input type="radio" name="tipo" value="regular"> Regular
+        <input type="radio" name="tipo" value="professor"> Professor
+    </div>
+
+    <!-- div/input -> É UM checkbox INFORMAR SE A PESSOA ESTÁ ATIVA OU NÃO-->
+    <div>
+        <input type="checkbox" name="ativo"> Ativo
+    </div>
+
+    <!-- select/option -> INFORMAR O LOCAL DE ONDE A PESSOA É COM UMA LISTA-->
+    <select name="estado" >
+        <option value="">Selecione</option>
+        <option value="ac">Acre</option>
+        <option value="ba">Bahia</option>
+        <option value="ce">Ceará</option>
+    </select>
+
+    <!-- select/option -> INTERESSES DA LINGUAGEM -->
+    <select name="interesses" multiple size="7">
+        <option value="js">JavaScript</option>
+        <option value="java">Java</option>
+        <option value="php">PHP</option>
+        <option value="python">Python</option>
+        <option value="go">Go</option>
+        <option value="c">C</option>
+    </select>
+
+    <button>Incluir</button>
+</form>
+
+<!-- CSS para ajusta coisas visuais-->
+<style>
+    input,
+    textarea,
+    select{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input[type=radio],
+    input[type="checkbox"]{
+        display: inline;
+    }
+</style>

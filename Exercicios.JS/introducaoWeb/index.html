@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicíos HTML</title>
+    <style>
+        #conteudo{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Exercicíos HTML
+    </header>
+    <nav>
+        <!--<a href="exercicios/teste.html">00 - Teste</a><br>-->
+        <a href wm-nav="exercicios/teste.html"> 00 - Teste</a> <hr> 
+        <a href wm-nav="exercicios/texto1.html">01 - Texto 1</a> |
+        <a href wm-nav="exercicios/texto2.html">02 - Texto 2</a><br> <hr>
+        <a href wm-nav="exercicios/listas.html">03 - Lista 3</a> |
+        <a href ="exercicios/listaAninhadas.html">04 - Lista Aninhadas 4</a><br> <hr>
+        <a href wm-nav="exercicios/links.html">05 - Links</a>|
+        <a href wm-nav="exercicios/tabela.html">06 - Tabelas</a><br>  <hr>
+        <a href wm-nav="exercicios/form/form.html">07 - Formulário</a><br>  <hr>
+    </nav> 
+    <section id="conteudo"></section><br>
+    <footer>
+        Curso de Web Moderno
+    </footer>
+    <!--Local para fazer a função de quando clickar ao botão ele ira aparecer uma mensagem oculta  FUNÇÃO DE BOTÃO-->
+    <script>
+        document.querySelectorAll('[wm-nav]').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+
+            link.onclick = function(e) {
+                e.preventDefault()
+                fetch(link.getAttribute('wm-nav'))
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>

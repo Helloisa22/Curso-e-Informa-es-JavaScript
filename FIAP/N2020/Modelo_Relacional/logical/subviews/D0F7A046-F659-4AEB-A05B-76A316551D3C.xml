@@ -30,13 +30,13 @@ Entidade T_VLL_DADOS_BANCARIOS pode ter no mínimo e no máximo um usuario na en
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="5680F511-E25C-D0D1-A2EC-ECD33D02DC68" otype="Note" vid="6AF32365-BA76-60C6-F800-9737C7C6B8D2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="454" y="59" width="267" height="76"/>
+<bounds x="454" y="59" width="267" height="98"/>
 <comment>Entidade T_VLL_USUARIO pode ter no mínimo zero e no máximo muitos cartões de créditos associados a entidade T_VLL_CARTAO_CREDITO.
 Entidade T_VLL_CARTAO_CREDITO pode ter no mínimo e no máximo uma associação a entidade T_VLL_USUARIO.</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="6E1FE50A-4BC9-01DE-FBD1-43C22B8CB845" otype="Note" vid="5860DE1B-DD42-960A-6FA8-C626BBF19A66">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1006" y="9" width="246" height="171"/>
+<bounds x="1006" y="9" width="264" height="200"/>
 <comment>	MEMBROS - Go Code
 
 Heloísa Beatriz de Oliveira Costa -  RM85589

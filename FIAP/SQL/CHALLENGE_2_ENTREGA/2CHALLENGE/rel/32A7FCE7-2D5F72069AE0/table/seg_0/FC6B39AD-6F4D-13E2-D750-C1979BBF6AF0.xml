@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC6B39AD-6F4D-13E2-D750-C1979BBF6AF0" name="T_GTR_TOPICO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:19:27 UTC</createdTime>
+<generatorID>ABFAF2BE-E4B9-E36D-1166-56CD834B2EAC</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_topico" id="5AFC1E3C-5BAE-5505-F09B-C0B92598BC91">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:19:27 UTC</createdTime>
+<generatorID>10C9F579-BC91-E329-BF47-0D9BBF4CEBA4</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tit_topico" id="B9BB9D0E-048B-A129-E83C-FA0BF2D00AD5">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:19:27 UTC</createdTime>
+<generatorID>723FA328-2B27-9EF9-8808-EADED80FA3D8</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>74</dataTypeSize>
+<ownDataTypeParameters>74,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sta_topico" id="FC8B98DC-FB3F-D4CC-969D-9D3039610D4E">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:19:27 UTC</createdTime>
+<generatorID>F9E1A8BC-151D-406F-DE21-B208576C40BD</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obs_topico" id="BAEC7F95-42BF-E6F9-538E-3FFE12414CBA">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:19:27 UTC</createdTime>
+<generatorID>CE79357A-ACDC-9AA5-E0D8-63921F3003B6</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>84</dataTypeSize>
+<ownDataTypeParameters>84,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAF8D771-42E8-9B91-D57A-BCE9701E4C27" name="T_GTR_TOPICO_PK">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:19:27 UTC</createdTime>
+<generatorID>CE13412F-08E1-6256-58C0-7D8658637D8E</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AFC1E3C-5BAE-5505-F09B-C0B92598BC91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3F8332B3-03C0-FE56-F2A8-453709F54F87" mainViewID="581CDD66-E1F4-D73C-5D7B-355EC4664399">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-05 20:14:27 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9173C673-19BA-48E2-FBE1-4239DB584D09" name="T_GTR_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>48F9C7EE-7D71-DBE0-D96E-1524AA2A0FF3</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_resgate" id="67B72582-5773-600E-4372-5D1CC6806488">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>488B6A39-B539-8702-8B9E-73ACF5AE29F4</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_resgate" id="67AAFC75-E2EC-CB44-15C2-C5C63F6627D4">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>48E77E8B-9EE7-071C-05C4-408426379E18</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_carteira" id="7CDFC0DD-E2F4-0F8F-C7D9-A7718E0882DE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>076558E1-E347-72D1-2F67-23EB0C54D71C</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62446C9C-28ED-3DAE-8489-804D57087C19" referredColumn="BEBEF713-8147-D2E5-995D-8107038E3167"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="067D987C-259B-3953-72BD-7FD8DED03E9F" name="PK_GTR_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>4A3831C6-1236-4756-38B3-F328CEEF742B</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B72582-5773-600E-4372-5D1CC6806488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BF26072-3444-A34C-C604-92669F1B241F" name="T_GTR_RESGATE__IDX">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7E327418-AF08-9245-3E5F-D5C7200857FC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7CDFC0DD-E2F4-0F8F-C7D9-A7718E0882DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2729716-1C31-6FAA-353F-A1CCB0D38FF0" name="FK_GTR_CARTEIRA_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>7E327418-AF08-9245-3E5F-D5C7200857FC</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CDFC0DD-E2F4-0F8F-C7D9-A7718E0882DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

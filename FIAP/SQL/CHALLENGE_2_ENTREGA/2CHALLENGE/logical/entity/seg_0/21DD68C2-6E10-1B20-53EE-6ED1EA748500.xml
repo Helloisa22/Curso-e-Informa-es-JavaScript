@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBF1EEBB-9550-7C17-4EFD-8341B29423C8" name="T_GTR_CARTEIRA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21DD68C2-6E10-1B20-53EE-6ED1EA748500" name="T_GTR_REUNIAO_COLABORADOR">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:20:09 UTC</createdTime>
+<createdTime>2020-10-06 18:41:21 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idt_carteira" id="B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28">
+<Attribute name="idt_reun_colab" id="D92F99BD-1B18-A6EF-8444-8D3DBAF54900">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:21:34 UTC</createdTime>
+<createdTime>2020-10-06 18:41:39 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -25,13 +25,28 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idt_funcionario" id="855CFD7C-B51E-EB80-270C-AD5AAB9A44D5">
+<Attribute name="idt_reuniao" id="4210356A-8A35-E861-4E50-72E598A47338">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-07 18:55:51 UTC</createdTime>
-<generatorID>C83CCF10-16C4-9DE5-8512-B87E5FCD5BAB</generatorID>
+<createdTime>2020-10-08 01:21:03 UTC</createdTime>
+<generatorID>5C45ECDE-E717-9DF7-15F7-EB21CFF1B82F</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<referedAttribute>E2571626-B919-EA3A-FF05-903EAC6B980B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt_funcionario" id="6123740D-58B6-B3F0-038F-581AFDD644FA">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-08 01:21:18 UTC</createdTime>
+<generatorID>03F737F4-1EFF-F430-B380-BD194472631F</generatorID>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -43,33 +58,19 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sal_carteira" id="87FA62FF-9F42-4CCE-6D26-5BFB6A3B815D">
-<createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:23:05 UTC</createdTime>
-<ownerDesignName>2CHALLENGE</ownerDesignName>
-<engineerTo>
-<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="583321ED-756B-7C23-8627-ADAF21EACF8D" name="PK_GTR_CARTEIRA">
+<identifier id="3C61F7E2-B9AE-91A2-9A04-94A6B905A7DF" name="PK_GTR_REUNIAO_COLABORADOR">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:24:31 UTC</createdTime>
+<createdTime>2020-10-06 18:43:06 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</newElementsIDs>
+<newElementsIDs>D92F99BD-1B18-A6EF-8444-8D3DBAF54900</newElementsIDs>
 <usedAttributes>
-<attributeRef>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</attributeRef>
+<attributeRef>D92F99BD-1B18-A6EF-8444-8D3DBAF54900</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

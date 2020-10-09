@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBF1EEBB-9550-7C17-4EFD-8341B29423C8" name="T_GTR_CARTEIRA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA2CFC67-D74B-5344-E582-F471043D5120" name="T_GTR_ITEM">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:20:09 UTC</createdTime>
+<createdTime>2020-10-06 18:52:12 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idt_carteira" id="B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28">
+<Attribute name="idt_item" id="694687DF-1450-C79D-AE36-7DC39E9DE14D">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:21:34 UTC</createdTime>
+<createdTime>2020-10-06 18:52:23 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -25,27 +25,25 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idt_funcionario" id="855CFD7C-B51E-EB80-270C-AD5AAB9A44D5">
+<Attribute name="nom_item" id="4A55C9D2-0931-E4EA-A2D9-EC09073611B1">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-07 18:55:51 UTC</createdTime>
-<generatorID>C83CCF10-16C4-9DE5-8512-B87E5FCD5BAB</generatorID>
+<createdTime>2020-10-06 18:53:01 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
-<referedAttribute>DB1557AC-E6CB-5129-A62C-C8D8B31408B3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sal_carteira" id="87FA62FF-9F42-4CCE-6D26-5BFB6A3B815D">
+<Attribute name="des_item" id="7F4AD24D-549D-D13E-0EFF-608B3E5DE493">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:23:05 UTC</createdTime>
+<createdTime>2020-10-06 18:53:26 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -53,23 +51,36 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sta_ativo" id="C19F2CEF-C1DC-01BB-243F-9EAD5AB2C51C">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:53:55 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="583321ED-756B-7C23-8627-ADAF21EACF8D" name="PK_GTR_CARTEIRA">
+<identifier id="A110B4D9-DE49-7702-3508-27D063D237A1" name="PK_GTR_ITEM">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:24:31 UTC</createdTime>
+<createdTime>2020-10-06 18:52:59 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</newElementsIDs>
+<newElementsIDs>694687DF-1450-C79D-AE36-7DC39E9DE14D</newElementsIDs>
 <usedAttributes>
-<attributeRef>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</attributeRef>
+<attributeRef>694687DF-1450-C79D-AE36-7DC39E9DE14D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

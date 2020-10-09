@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC715BC9-9AC1-54A6-6891-F6CE06FB2771" name="T_GTR_REUNIAO_TAREFA">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>1FB7CCFB-A4AA-68AA-223E-CF8B00B355B8</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reun_tar" id="D51CCA74-7775-D1CB-58A7-A0F0410398AB">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>B19FEB9C-64E5-9D72-2A36-8B5620EDB5A3</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tarefa" id="A7F71C2A-3D6A-79F3-22C6-6C73E6E0BA47">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>F10E6883-4F4C-5CCD-BFA9-92DB43CA7D87</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA2F3D77-764E-8DC8-6023-2EA447220D73" referredColumn="104E1975-A2BE-DE0B-61CA-6E6472726269"/>
+</associations>
+</Column>
+<Column name="id_reuniao" id="882D1A2E-B456-B7B6-B723-558270FC87E1">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>4BD40043-F56F-9676-16BE-1D66809C0CD2</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="740290AD-EFE7-5C46-0CB9-0B3CD17FEBB8" referredColumn="8ECBEF06-34C1-CC74-E57F-D8FB0161BE4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="226BFF75-D260-A8E2-7E1F-BB8A8EE48C25" name="T_GTR_REUNIAO_TAREFA_PK">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>C2BA6F78-6205-FEF4-F8FA-5E2AF71BD77D</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51CCA74-7775-D1CB-58A7-A0F0410398AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C486F11-1CD3-B35E-2F96-1D9CA7BCBAB4" name="T_GTR_REUNIAO_TAREFA_T_GTR_TAREFA_FK">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>BDEA5C7D-C7C8-46C2-4C4B-F43E7BFA25F7</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7F71C2A-3D6A-79F3-22C6-6C73E6E0BA47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D1A4BBC-78ED-57FC-43C6-D571E19EFD8E" name="T_GTR_REUNIAO_TAREFA_T_GTR_REUNIAO_FK">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>0B01B90A-0D02-F952-E488-E130A2947B40</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="882D1A2E-B456-B7B6-B723-558270FC87E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

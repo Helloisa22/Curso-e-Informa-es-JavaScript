@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D20B6D9-6655-27B1-01F3-B8C1717B5CBD" name="T_GTR_ITEM_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>AE20448A-7429-3BE2-3A89-D7821B7A8B73</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_item_resg" id="1A520A5D-910B-2FB3-29F0-D8BC5096638A">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>DC431DB0-142A-984E-FDCB-CF8F737C01A8</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_resgate" id="C09C178E-EE68-3B43-A60A-25BA9CD9CC52">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>EA101193-2B28-2EBF-E53B-C4BABCAF076D</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BCDF645-02BF-51BD-D9CB-93C1F411B50E" referredColumn="67B72582-5773-600E-4372-5D1CC6806488"/>
+</associations>
+</Column>
+<Column name="id_item" id="9F332F34-6A6C-EBE1-082C-0F9722F52E13">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>5218A9CB-7CC2-A334-5C43-F5FAF93F9517</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="791635F8-3316-44F0-871A-90419B33D3E4" referredColumn="BAF1C6C3-A4CC-92B3-1FDC-F7E42FA62D74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68850ACE-3ED0-53DF-95BC-FF852B499C6D" name="PK_GTR_ITEM_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>55794BA9-61DD-D9CA-CC5A-1C35291D6F4D</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A520A5D-910B-2FB3-29F0-D8BC5096638A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FF9A3F3-5223-E495-AB41-941B03549D61" name="FK_GTR_RESGATE_ITEM">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>34D44AA0-731D-4BAE-5144-8783591416EF</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C09C178E-EE68-3B43-A60A-25BA9CD9CC52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7135291F-570D-6A53-2416-CE3C88EA8AE9" name="FK_GTR_ITEM_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>66462374-7EB7-2B02-D1EE-000FEFA607AD</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F332F34-6A6C-EBE1-082C-0F9722F52E13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

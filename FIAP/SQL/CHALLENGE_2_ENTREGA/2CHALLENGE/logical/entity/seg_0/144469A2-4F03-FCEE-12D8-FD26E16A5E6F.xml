@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABFAF2BE-E4B9-E36D-1166-56CD834B2EAC" name="T_GTR_TOPICO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="144469A2-4F03-FCEE-12D8-FD26E16A5E6F" name="T_GTR_REUNIAO">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:08:47 UTC</createdTime>
+<createdTime>2020-10-06 18:18:44 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -15,63 +15,63 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Idt_topico" id="10C9F579-BC91-E329-BF47-0D9BBF4CEBA4">
+<Attribute name="idt_reuniao" id="E2571626-B919-EA3A-FF05-903EAC6B980B">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:09:08 UTC</createdTime>
+<createdTime>2020-10-06 18:19:48 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="idt_tarefa" id="F214F7B8-88DE-FEDD-F118-ACA6266D0BB9">
-<createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-08 00:59:48 UTC</createdTime>
-<generatorID>94C660AA-16D2-F33A-076E-B18CBFFB152D</generatorID>
-<ownerDesignName>2CHALLENGE</ownerDesignName>
-<engineerTo>
-<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
-</engineerTo>
-<referedAttribute>0BAEB582-F5F8-1B7F-2FDE-D9FE52B17FE9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tit_topico" id="723FA328-2B27-9EF9-8808-EADED80FA3D8">
+<Attribute name="idt_funcionario" id="F94B0CA8-23D6-67C1-3FE7-8EC6D43E3DD2">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:14:53 UTC</createdTime>
+<createdTime>2020-10-08 01:21:37 UTC</createdTime>
+<generatorID>CBF3BB1D-EECC-3898-E90E-7E9CFDE87486</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<referedAttribute>DB1557AC-E6CB-5129-A62C-C8D8B31408B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt_gestor" id="DE09791C-405E-C120-D4B9-8204D7E68B78">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:20:35 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>74</dataTypeSize>
-<ownDataTypeParameters>74,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sta_topico" id="F9E1A8BC-151D-406F-DE21-B208576C40BD">
+<Attribute name="tit_reuniao" id="8993F841-DCFD-7448-6035-78A90A4996F7">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:15:40 UTC</createdTime>
+<createdTime>2020-10-06 18:21:24 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dtt_criacao" id="375F4A00-CC35-7606-3F9B-7DD196038B80">
+<Attribute name="dat_expiracao_reuniao" id="9B069CE1-A408-750A-CB9E-AD988A03C559">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-07 23:36:43 UTC</createdTime>
+<createdTime>2020-10-06 18:21:57 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -81,23 +81,34 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="obs_topico" id="CE79357A-ACDC-9AA5-E0D8-63921F3003B6">
+<Attribute name="sta_reuniao" id="721BFAFD-2B92-9CCE-323F-A319F3EE1453">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:17:33 UTC</createdTime>
+<createdTime>2020-10-06 18:22:48 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>84</dataTypeSize>
-<ownDataTypeParameters>84,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dtt_atuaizacao" id="11178377-257D-3BA6-D5B9-96159DBA2300">
+<Attribute name="dtt_criacao" id="409B6BBD-F885-E1B7-31AB-AE36FF4E072A">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-07 23:38:08 UTC</createdTime>
+<createdTime>2020-10-08 21:29:23 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtt_atualizao" id="E2C76554-8A77-DE5F-2431-7AE5B21E8A7F">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-08 21:30:26 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -108,32 +119,30 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dtt_exclusao" id="A30F5B47-8618-207D-DB99-35199EC01163">
+<Attribute name="dtt_exclusao" id="3F727F48-10E9-20DE-451A-62D1DBFC9DEF">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-07 23:38:33 UTC</createdTime>
+<createdTime>2020-10-08 21:30:44 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CE13412F-08E1-6256-58C0-7D8658637D8E" name="PK_GTR_TOPICO">
+<identifier id="6261A1DF-3D2D-643F-8F3E-195DC435333C" name="PK_GTR_REUNIAO">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:09:45 UTC</createdTime>
+<createdTime>2020-10-06 18:20:33 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>10C9F579-BC91-E329-BF47-0D9BBF4CEBA4</newElementsIDs>
+<newElementsIDs>E2571626-B919-EA3A-FF05-903EAC6B980B</newElementsIDs>
 <usedAttributes>
-<attributeRef>10C9F579-BC91-E329-BF47-0D9BBF4CEBA4</attributeRef>
+<attributeRef>E2571626-B919-EA3A-FF05-903EAC6B980B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

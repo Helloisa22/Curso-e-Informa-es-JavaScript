@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC272E70-0F03-6D4F-287A-93CD0543E953" containerWithKeyObject="79A20C1C-E758-F054-C5FD-00CCF83DA9C9" localFKIndex="4FFE3A11-3C8C-CE8E-7203-D922ECF367F3" name="FK_GTR_REUNIAO_COLAB">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>842534B1-F15D-5EEB-025B-C590AD5498FC</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<referredTableLongName>T_GTR_REUNIAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E5AC7DD-B0F5-242A-EB86-94D67C8A185B</referredTableID>
+<keyObject>E160DD40-FBF1-CAC1-63C5-B2D4480BB02E</keyObject>
+<referredKeyID>E160DD40-FBF1-CAC1-63C5-B2D4480BB02E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_reuniao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

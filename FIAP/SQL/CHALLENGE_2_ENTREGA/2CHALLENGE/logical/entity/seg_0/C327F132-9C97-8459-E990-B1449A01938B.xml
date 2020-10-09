@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBF1EEBB-9550-7C17-4EFD-8341B29423C8" name="T_GTR_CARTEIRA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C327F132-9C97-8459-E990-B1449A01938B" name="T_GTR_FUNCIONARIO_DEPARTAMENTO">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:20:09 UTC</createdTime>
+<createdTime>2020-10-06 18:46:34 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idt_carteira" id="B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28">
+<Attribute name="idt_func_dep" id="4E7FFF30-3E09-7053-BE8D-B671A2B06762">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:21:34 UTC</createdTime>
+<createdTime>2020-10-06 18:46:51 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -25,13 +25,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idt_funcionario" id="855CFD7C-B51E-EB80-270C-AD5AAB9A44D5">
+<Attribute name="idt_funcionario" id="80854C1C-AC38-632B-2431-20B252E93B04">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-07 18:55:51 UTC</createdTime>
-<generatorID>C83CCF10-16C4-9DE5-8512-B87E5FCD5BAB</generatorID>
+<createdTime>2020-10-07 18:54:28 UTC</createdTime>
+<generatorID>EAFF30BB-F705-3A90-7B4C-37BC323DF473</generatorID>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
@@ -41,35 +41,36 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sal_carteira" id="87FA62FF-9F42-4CCE-6D26-5BFB6A3B815D">
+<Attribute name="idt_departamento" id="0B86D14E-17CA-C27D-B65E-386B7F832A9B">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:23:05 UTC</createdTime>
+<createdTime>2020-10-07 18:59:17 UTC</createdTime>
+<generatorID>6F13F30F-C178-94D7-A4BE-B6C307B47403</generatorID>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F16E5D44-481C-0878-76D4-CD6D1B6082F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="583321ED-756B-7C23-8627-ADAF21EACF8D" name="PK_GTR_CARTEIRA">
+<identifier id="E65D8540-F3DF-A8B0-4D0A-1270C84CDC53" name="PK_GTR_FUNCIONARIO_DEPARTAMENTO">
 <createdBy>Heloisa.Costa</createdBy>
-<createdTime>2020-10-06 03:24:31 UTC</createdTime>
+<createdTime>2020-10-06 18:49:24 UTC</createdTime>
 <ownerDesignName>2CHALLENGE</ownerDesignName>
 <engineerTo>
 <item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</newElementsIDs>
+<newElementsIDs>4E7FFF30-3E09-7053-BE8D-B671A2B06762</newElementsIDs>
 <usedAttributes>
-<attributeRef>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</attributeRef>
+<attributeRef>4E7FFF30-3E09-7053-BE8D-B671A2B06762</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44FF69BA-372E-9B86-1A0A-BD55383239E1" name="T_GTR_FUNCIONARIO_DEPARTAMENTO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>C327F132-9C97-8459-E990-B1449A01938B</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_func_dep" id="8FFB72E5-4D7B-7F1F-EFDE-507CC084ADFF">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>4E7FFF30-3E09-7053-BE8D-B671A2B06762</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_funcionario" id="ABA5861F-1323-E098-A5F8-6C7AE4AAC79A">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>80854C1C-AC38-632B-2431-20B252E93B04</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="696161E2-989D-5E69-D073-2C132041AE6C" referredColumn="616B01E2-1370-C4C8-1632-6A18EAF3DD2B"/>
+</associations>
+</Column>
+<Column name="id_departamento" id="BC9184AD-AF49-EB94-D893-D5EF7C65C9A0">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>0B86D14E-17CA-C27D-B65E-386B7F832A9B</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="096F486C-BFF4-6957-D79A-766768C20002" referredColumn="B247AEE6-19FB-575A-3107-5B2780CA742E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="531A067A-85AD-C831-BFDE-B54D3D6A83CB" name="PK_GTR_FUNCIONARIO_DEPARTAMENTO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>E65D8540-F3DF-A8B0-4D0A-1270C84CDC53</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FFB72E5-4D7B-7F1F-EFDE-507CC084ADFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77A70A85-4E09-A294-07FA-B768F6F4353B" name="T_GTR_FUNCIONARIO_DEPARTAMENTO__IDX">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EAFF30BB-F705-3A90-7B4C-37BC323DF473</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ABA5861F-1323-E098-A5F8-6C7AE4AAC79A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97651FDD-E66F-B592-7C43-6ABA0D2E8D75" name="FK_GTR_FUNCI_DEPART">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>EAFF30BB-F705-3A90-7B4C-37BC323DF473</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA5861F-1323-E098-A5F8-6C7AE4AAC79A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7980927C-C452-A14A-1046-001B9F902AF7" name="FK_GTR_DEPART_FUNC">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>6F13F30F-C178-94D7-A4BE-B6C307B47403</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC9184AD-AF49-EB94-D893-D5EF7C65C9A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

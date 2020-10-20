@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E67406FB-574D-E6AA-AF5D-7C4B0D5EBC33" name="T_GTR_DEPARTAMENTO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:25:32 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt_departamento" id="F16E5D44-481C-0878-76D4-CD6D1B6082F3">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:26:04 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_departamento" id="D97D57FA-FB9D-F6B7-B411-0EC6D3749744">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:26:36 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E1D8440-DA26-E098-415B-33C541A56A75" name="PK_GTR_DEPARTAMENTO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:26:30 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F16E5D44-481C-0878-76D4-CD6D1B6082F3</newElementsIDs>
+<usedAttributes>
+<attributeRef>F16E5D44-481C-0878-76D4-CD6D1B6082F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

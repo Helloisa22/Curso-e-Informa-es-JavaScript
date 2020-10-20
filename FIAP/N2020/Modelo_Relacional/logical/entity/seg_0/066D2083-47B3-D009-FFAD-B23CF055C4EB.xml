@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="066D2083-47B3-D009-FFAD-B23CF055C4EB" name="T_VLL_SERVICO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:12:16 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_servico" id="04A620E3-FE9B-8568-C23B-68A101B5FFE0">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:14:30 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome" id="B81F7908-BD5C-E8E6-C46E-EA38CD92070F">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:12:48 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_descricao" id="E51AFB3B-B07E-CDDE-E881-F479AA0C8852">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:13:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="in_tipo" id="1F415D11-6D8D-F3FD-A140-75C572881217">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:13:56 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="im_imagem" id="756EA237-D707-702D-9474-6B90171FFD36">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:14:12 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="544D000C-A493-6A25-0A7C-1DEF41DA3038">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:26:40 UTC</createdTime>
+<generatorID>BC3332E1-8A11-D92B-D9EF-E4285DDE4D24</generatorID>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<referedAttribute>6089B042-A950-A15D-A4F7-65946551AEFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56CABB0C-224F-FD83-74E7-0A5B2240665A" name="T_VLL_SERVICO PK">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:14:54 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04A620E3-FE9B-8568-C23B-68A101B5FFE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

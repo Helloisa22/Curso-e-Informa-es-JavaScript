@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C24D5423-2FAA-3E47-EA3C-20526E76A270" containerWithKeyObject="C744E531-1EF5-A90B-1911-E5CC33A593AB" localFKIndex="22DD4260-97FE-3266-654A-4C0BA1A5E155" name="FK_GTR_TAREFA_TOPICO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>B7811604-C6ED-1CCA-CD73-403882687872</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<referredTableLongName>T_GTR_TAREFA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39E4BA69-203E-CEF0-8F42-7235E655D05B</referredTableID>
+<keyObject>19FF5738-6109-3B16-712A-E119DDAC96BD</keyObject>
+<referredKeyID>19FF5738-6109-3B16-712A-E119DDAC96BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tarefa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

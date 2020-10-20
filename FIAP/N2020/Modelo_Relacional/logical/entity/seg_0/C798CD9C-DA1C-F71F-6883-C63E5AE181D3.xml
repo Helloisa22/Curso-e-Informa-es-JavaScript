@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C798CD9C-DA1C-F71F-6883-C63E5AE181D3" name="T_VLL_CHAT">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:15:11 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_chat" id="2700DE15-8EA0-3E7E-CB41-92B7BC8F9491">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:16:17 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_mensagem" id="BE5E3923-0AA6-EC49-9EDF-8E5B0F535851">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:15:28 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="in_mensagem" id="336C9B6D-809C-C996-5DE6-6F5ECA30578C">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:16:06 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="47FB0ECE-AFD4-6C1C-9223-D763FB43E75B">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:37:13 UTC</createdTime>
+<generatorID>7E5D4598-68CA-0DD0-E6E5-E572C5EF2309</generatorID>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<referedAttribute>6089B042-A950-A15D-A4F7-65946551AEFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E59A907B-C36C-84EB-C89E-1AA63C518EEE" name="T_VLL_CHAT PK">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-06-18 00:16:27 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional</ownerDesignName>
+<engineerTo>
+<item key="4B801C1C-5D47-05B7-82EC-93C23CD90111" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2700DE15-8EA0-3E7E-CB41-92B7BC8F9491</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

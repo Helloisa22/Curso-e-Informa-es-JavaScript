@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="D0F7A046-F659-4AEB-A05B-76A316551D3C">
+<createdBy>Heloisa.Costa</createdBy>
+<modifiedBy>Heloisa.Costa</modifiedBy>
+<createdTime>2020-06-18 00:06:21 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="066D2083-47B3-D009-FFAD-B23CF055C4EB" otype="Entity" vid="669B9C2B-4A0E-9AA2-AC35-449EE96BB9E9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1050" y="345" width="186" height="135"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="23E60754-3BC6-463B-E099-DB5DDA68BE70" otype="Entity" vid="C77F8768-4B0B-F588-F5A9-735CD24319A8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="96" y="7" width="247" height="145"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="333D57A3-3360-AA40-EEFA-5BE17F8866FE" otype="Note" vid="1D9C9624-63E7-AE29-5CBE-550F007B4263">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="35" y="192" width="335" height="64"/>
+<comment>Entidade T_VLL_USUARIO pode ter no mínimo zero e no máximo muitas associação a entidade T_VLL_DADOS_BANCARIOS.
+Entidade T_VLL_DADOS_BANCARIOS pode ter no mínimo e no máximo um usuario na entidade T_VLL_USUARIO.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="5680F511-E25C-D0D1-A2EC-ECD33D02DC68" otype="Note" vid="6AF32365-BA76-60C6-F800-9737C7C6B8D2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="454" y="59" width="267" height="98"/>
+<comment>Entidade T_VLL_USUARIO pode ter no mínimo zero e no máximo muitos cartões de créditos associados a entidade T_VLL_CARTAO_CREDITO.
+Entidade T_VLL_CARTAO_CREDITO pode ter no mínimo e no máximo uma associação a entidade T_VLL_USUARIO.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="6E1FE50A-4BC9-01DE-FBD1-43C22B8CB845" otype="Note" vid="5860DE1B-DD42-960A-6FA8-C626BBF19A66">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1006" y="9" width="264" height="200"/>
+<comment>	MEMBROS - Go Code
+
+Heloísa Beatriz de Oliveira Costa -  RM85589
+
+Higor Guilherme Gomes de Santana –  RM86346
+
+Jacó Magalhães I Sen Chen – RM84717
+
+Lucas Gabriel Estevam Campos – RM86219
+
+Luis Fernando Pedro Paulino da Silva – RM85398
+
+Stefany Gabriela Cipriano Marques –  RM85632
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B8537E68-73E1-F585-4551-B1AA7F557465" otype="Entity" vid="7C380ABA-D551-92E0-4BC5-2526C5F0F67F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="739" y="2" width="229" height="146"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C798CD9C-DA1C-F71F-6883-C63E5AE181D3" otype="Entity" vid="E0610732-CCF9-C32E-C1B0-E6A48DAD85A6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="23" y="320" width="192" height="107"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D7C0AC9E-FC49-288F-03B1-96871C3ACB9F" otype="Entity" vid="8606320B-20C8-8C01-2E4F-8F2E703F2C80">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="700" y="667" width="194" height="75"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="DF3AE87A-0866-CA1A-C92C-75D40F4127A5" otype="Note" vid="2B6382EC-9C58-5A2B-103E-3B7D4F69BDAF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="411" y="548" width="296" height="98"/>
+<comment>Entidade T_VLL_USUARIO pode ter no mínimo zero e no máximo muitas associação a entidade T_VLL_NOTIFICACAO.
+Entidade T_VLL_NOTIFICACAO pode ter no mínimo e no máximo um usuario na entidade T_VLL_USUARIO.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="DF51068C-B83E-F9F3-9DFB-DC34CF162375" otype="Note" vid="1C70EDC0-50DF-5C70-F8F2-A9F85B938B33">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="755" y="304" width="283" height="68"/>
+<comment>Entidade T_VLL_USUARIO pode ter no mínimo zero ou no máximo muitos serviços da entidade T_VLL_SERVICO.
+Entidade T_VLL_SERVICO pode apenas ter no máximo e no mínimo uma associação a entidade T_VLL_USUARIO.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="E208080E-0939-3D57-8C7F-487D6F6330BD" otype="Note" vid="F998533F-A2EA-2DD1-B7B0-35DEBBCD4115">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="238" y="408" width="278" height="67"/>
+<comment>Entidade T_VLL_USUARIO pode ter no mínimo zero e no máximo muitas associação a entidade T_VLL_CHAT.
+Entidade T_VLL_CHAT pode ter no mínimo e no máximo um usuario na entidade T_VLL_USUARIO.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E9604023-CE9A-E340-1EFB-37818C73557B" otype="Entity" vid="D3E29D6D-38EE-2F39-7554-BEF72DB15B28">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="535" y="265" width="209" height="229"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="EAEE9D55-AF03-0164-06A4-9292EFAFE60C" otype="Note" vid="A81E1C3A-1487-B655-3D9A-B330E5BA2F85">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="947" y="600" width="292" height="86"/>
+<comment>Entidade T_VLL_SERVICO pode ter no máximo e no mínimo uma associação a entidade T_VLL_NOTIFICACAO.
+Entidade T_VLL_NOTIFICACAO pode ter no mínimo zero ou no máximo muitos serviços na entidade T_VLL_SERVICO.</comment>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="048997A1-10FC-B519-1D05-350ABC098720" otype="Relation" vid_source="D3E29D6D-38EE-2F39-7554-BEF72DB15B28" vid_target="8606320B-20C8-8C01-2E4F-8F2E703F2C80">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="722" y="494"/>
+<point x="722" y="667"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="05C8CD91-6470-0A20-8608-75CE3FF27524" otype="Relation" vid_source="D3E29D6D-38EE-2F39-7554-BEF72DB15B28" vid_target="7C380ABA-D551-92E0-4BC5-2526C5F0F67F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="741" y="265"/>
+<point x="741" y="148"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2B7A27E4-7F95-45A2-9C7A-611C31508774" otype="Relation" vid_source="D3E29D6D-38EE-2F39-7554-BEF72DB15B28" vid_target="C77F8768-4B0B-F588-F5A9-735CD24319A8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="535" y="304"/>
+<point x="321" y="152"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7E5D4598-68CA-0DD0-E6E5-E572C5EF2309" otype="Relation" vid_source="D3E29D6D-38EE-2F39-7554-BEF72DB15B28" vid_target="E0610732-CCF9-C32E-C1B0-E6A48DAD85A6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="535" y="388"/>
+<point x="215" y="388"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9828D1F2-6EB6-AEEA-104A-F44284AC23C5" otype="Relation" vid_source="8606320B-20C8-8C01-2E4F-8F2E703F2C80" vid_target="669B9C2B-4A0E-9AA2-AC35-449EE96BB9E9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="841" y="667"/>
+<point x="1063" y="480"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="BC3332E1-8A11-D92B-D9EF-E4285DDE4D24" otype="Relation" vid_source="D3E29D6D-38EE-2F39-7554-BEF72DB15B28" vid_target="669B9C2B-4A0E-9AA2-AC35-449EE96BB9E9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="744" y="412"/>
+<point x="1050" y="412"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

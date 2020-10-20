@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE20448A-7429-3BE2-3A89-D7821B7A8B73" name="T_GTR_ITEM_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:51:06 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt_item_resg" id="DC431DB0-142A-984E-FDCB-CF8F737C01A8">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:51:35 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt_resgate" id="EA101193-2B28-2EBF-E53B-C4BABCAF076D">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 18:58:04 UTC</createdTime>
+<generatorID>34D44AA0-731D-4BAE-5144-8783591416EF</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<referedAttribute>488B6A39-B539-8702-8B9E-73ACF5AE29F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt_item" id="5218A9CB-7CC2-A334-5C43-F5FAF93F9517">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 18:58:48 UTC</createdTime>
+<generatorID>66462374-7EB7-2B02-D1EE-000FEFA607AD</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<referedAttribute>694687DF-1450-C79D-AE36-7DC39E9DE14D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55794BA9-61DD-D9CA-CC5A-1C35291D6F4D" name="PK_GTR_ITEM_RESGATE">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:51:52 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>DC431DB0-142A-984E-FDCB-CF8F737C01A8</newElementsIDs>
+<usedAttributes>
+<attributeRef>DC431DB0-142A-984E-FDCB-CF8F737C01A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

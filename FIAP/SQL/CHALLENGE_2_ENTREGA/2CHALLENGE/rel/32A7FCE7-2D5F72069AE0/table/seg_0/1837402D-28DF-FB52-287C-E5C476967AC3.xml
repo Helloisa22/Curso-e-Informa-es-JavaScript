@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1837402D-28DF-FB52-287C-E5C476967AC3" name="T_GTR_DEPARTAMENTO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>E67406FB-574D-E6AA-AF5D-7C4B0D5EBC33</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_departamento" id="B247AEE6-19FB-575A-3107-5B2780CA742E">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>F16E5D44-481C-0878-76D4-CD6D1B6082F3</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_departamento" id="4A2F987E-37BE-72AD-9B25-1412508035B1">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>D97D57FA-FB9D-F6B7-B411-0EC6D3749744</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39D1C117-9958-7A51-DF06-B685F6F42CE4" name="PK_GTR_DEPARTAMENTO">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 19:18:08 UTC</createdTime>
+<generatorID>8E1D8440-DA26-E098-415B-33C541A56A75</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B247AEE6-19FB-575A-3107-5B2780CA742E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

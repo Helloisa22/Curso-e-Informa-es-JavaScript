@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28BF97BA-E2F2-8935-1E3F-C4228163B5BA" name="T_GTR_TAREFA">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:24:14 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt_tarefa" id="0BAEB582-F5F8-1B7F-2FDE-D9FE52B17FE9">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:24:26 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt_reuniao" id="14537CD6-A8EA-1439-59CD-F89268D5BA77">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-08 01:09:21 UTC</createdTime>
+<generatorID>9C926105-EC5A-89CE-4C78-3C9113DD6416</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<referedAttribute>E2571626-B919-EA3A-FF05-903EAC6B980B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tit_tarefa" id="2F7B68E5-28A6-746A-DA9D-C371A21A4260">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:26:10 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sta_tarefa" id="085E1BCD-D2DB-1B36-FC81-4B1AD77E144D">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:27:22 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_tarefa" id="B6799AD7-7C4A-F7D4-8CD9-8C3032A5EE04">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:38:09 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtt_criacao" id="90D835F9-5272-4EE7-574B-24B3B2E28929">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-08 01:00:46 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtt_atualizacao" id="27A55D8D-1305-8663-A576-285097C1580D">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-08 01:01:01 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dtt_exclusao" id="05039AA3-56F5-998D-2410-42B1D91B1BF2">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-08 01:01:23 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6F4F24A-4185-9E45-244B-499885A3E2C6" name="PK_GTR_TAREFA">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 18:26:08 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0BAEB582-F5F8-1B7F-2FDE-D9FE52B17FE9</newElementsIDs>
+<usedAttributes>
+<attributeRef>0BAEB582-F5F8-1B7F-2FDE-D9FE52B17FE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

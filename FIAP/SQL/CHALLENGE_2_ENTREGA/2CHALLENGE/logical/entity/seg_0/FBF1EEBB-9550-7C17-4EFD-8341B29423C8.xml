@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBF1EEBB-9550-7C17-4EFD-8341B29423C8" name="T_GTR_CARTEIRA">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:20:09 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idt_carteira" id="B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:21:34 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idt_funcionario" id="855CFD7C-B51E-EB80-270C-AD5AAB9A44D5">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-07 18:55:51 UTC</createdTime>
+<generatorID>C83CCF10-16C4-9DE5-8512-B87E5FCD5BAB</generatorID>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<referedAttribute>DB1557AC-E6CB-5129-A62C-C8D8B31408B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sal_carteira" id="87FA62FF-9F42-4CCE-6D26-5BFB6A3B815D">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:23:05 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="583321ED-756B-7C23-8627-ADAF21EACF8D" name="PK_GTR_CARTEIRA">
+<createdBy>Heloisa.Costa</createdBy>
+<createdTime>2020-10-06 03:24:31 UTC</createdTime>
+<ownerDesignName>2CHALLENGE</ownerDesignName>
+<engineerTo>
+<item key="32A7FCE7-1F79-CE42-FA0D-2D5F72069AE0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</newElementsIDs>
+<usedAttributes>
+<attributeRef>B8DF4F61-A442-1AAF-4AC6-8BC481C6AC28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
